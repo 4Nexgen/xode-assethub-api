@@ -1,7 +1,7 @@
 services:
   app:
-    image: xoderockson/xode-blockchain-api:latest
-    container_name: xode-blockchain-api
+    image: xoderockson/xode-assethub-api:latest
+    container_name: xode-assethub-api
     ports:
-      - 3017:3000
+      - 3024:3000
 
