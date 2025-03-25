@@ -12,7 +12,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Xode AssetHub API')
     .setDescription(
-      'The Xode Blockchain API provides methods to interact with the Xode blockchain. Key features include creating wallet addresses, retrieving the latest block height, fetching transactions of specific blocks, checking transaction details, ensuring transaction accuracy, making transfers with offline signing, and querying address balances.',
+      'The AssetHub API is now integrated with Polkadot AssetHub RPC to monitor blocks and track transactions related to MPC assets added in Polkadot AssetHub. It provides methods for creating wallet addresses, retrieving the latest block height, fetching transactions for specific blocks, checking transaction details, ensuring transaction accuracy, making transfers with offline signing, and querying address balances.',
     )
     .setVersion('1.0')
     .build();
