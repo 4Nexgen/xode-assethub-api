@@ -10,7 +10,7 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Xode Blockchain API')
+    .setTitle('Xode AssetHub API')
     .setDescription(
       'The Xode Blockchain API provides methods to interact with the Xode blockchain. Key features include creating wallet addresses, retrieving the latest block height, fetching transactions of specific blocks, checking transaction details, ensuring transaction accuracy, making transfers with offline signing, and querying address balances.',
     )

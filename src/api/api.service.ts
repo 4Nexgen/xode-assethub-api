@@ -48,9 +48,7 @@ export class ApiService {
     const { ApiPromise, WsProvider } = require('@polkadot/api');
 
     // Define the WebSocket provider URL for the Polkadot node.
-    const provider = new WsProvider(
-      'wss://rpcnodea01.xode.net/n7yoxCmcIrCF6VziCcDmYTwL8R03a/rpc',
-    );
+    const provider = new WsProvider('wss://polkadot-asset-hub-rpc.polkadot.io');
 
     // Create the Polkadot API instance.
     const api = await ApiPromise.create({ provider });
@@ -74,9 +72,7 @@ export class ApiService {
     const { ApiPromise, WsProvider } = require('@polkadot/api');
 
     // Initialize the provider
-    const provider = new WsProvider(
-      'wss://rpcnodea01.xode.net/n7yoxCmcIrCF6VziCcDmYTwL8R03a/rpc',
-    );
+    const provider = new WsProvider('wss://polkadot-asset-hub-rpc.polkadot.io');
 
     // Create the API instance
     const api = await ApiPromise.create({ provider });
@@ -131,9 +127,7 @@ export class ApiService {
     const { ApiPromise, WsProvider } = require('@polkadot/api');
 
     // Initialize the provider
-    const provider = new WsProvider(
-      'wss://rpcnodea01.xode.net/n7yoxCmcIrCF6VziCcDmYTwL8R03a/rpc',
-    );
+    const provider = new WsProvider('wss://polkadot-asset-hub-rpc.polkadot.io');
 
     // Create the API instance
     const api = await ApiPromise.create({ provider });
